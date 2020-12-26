@@ -4,7 +4,7 @@
 
 Copy these three files into your labymod addon source, set the transformer to `yourpackage.transformer.NetHandlerPlayClientTransformer`.
 
-Everytime the client wants to send a packet to the server, the `shouldSendPacket` method from https://github.com/luca-gg/minecraft-asm-packetsend-hook/blob/main/PacketHandler.java is called. Do stuff here, returning true means the packet is being sent to the server, not if false.
+Everytime the client wants to send a packet to the server, the `shouldSendPacket` method from [PacketHandler.java](https://github.com/luca-gg/minecraft-asm-packetsend-hook/blob/main/PacketHandler.java) is called. Do stuff here, returning true means the packet is being sent to the server, not if false.
 
 ## Troubleshoot
 
